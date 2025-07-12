@@ -6,7 +6,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bodyPrincipal{
+  background: url("./img/background.jpg");
+  background-attachment: fixed;
+  position: absolute;
+  background-size: contain;
+  width: 100%;  
+}
 
+img{
+  position: fixed;
+  width: 100%;  
+  z-index: -2; 
+  animation: scale 0.01s ease-in-out infinite;  
+}
+
+
+
+@keyframes scale {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity:0;
+  }
+  100%
+  {    
+    opacity: 1;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
