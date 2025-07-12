@@ -1,0 +1,9 @@
+.buttonUp{
+    position:fixed;
+    Bottom:80px;
+    right:80px;
+    width: 40px;
+    height:40px;
+    z-index:10;
+    
+}
