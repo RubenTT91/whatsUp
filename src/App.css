@@ -32,7 +32,7 @@
   position: absolute;
   top: 300px;
   right: 400px;
-  opacity: 0.2;
+  opacity: 0.4;
   animation: rocks-float 8s infinite ease-in-out;
 }
 
@@ -43,8 +43,19 @@
   position: absolute;
   top: 400px;
   right: 480px;
-  opacity: 0.2;
+  opacity: 0.5  ;
   animation: rocks-float-2 10s infinite ease-in-out;
+
+}
+
+.br3{
+  z-index: 1;
+  width: 1%;
+  position: absolute;
+  top: 80px;
+  right: 500px;
+  opacity: 0.5  ;
+  animation: rocks-float-3 5s infinite linear;
 
 }
 
@@ -68,12 +79,25 @@
 
 @keyframes rocks-float-2 {
   0%{
-    top: 400px;
+    /* top: 90px; */
   }
   50%{
     top:390px;
   }
   100%{
     top: 400px;
+  }
+}
+@keyframes rocks-float-3 {
+  0%{
+    top: 400px;
+    transform:rotate(0deg);
+  }
+  50%{
+    top:390px;
+  }
+  100%{
+    top: 400px;
+    transform:rotate(360deg);
   }
 }
