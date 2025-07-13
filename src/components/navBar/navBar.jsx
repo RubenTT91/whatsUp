@@ -10,7 +10,7 @@ function NavBar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              Mi Portafolio
+              Welcome
             </a>
             <button
               className="navbar-toggler"
@@ -28,13 +28,13 @@ function NavBar() {
                 <Link to="section1" smooth={true} duration={500}>
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      ¿Quien soy?
+                      How I am?
                     </a>
                   </li>
                 </Link>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Mis Proyectos
+                    My Projects
                   </a>
                 </li>
                 <li className="nav-item">

@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.br {
+  z-index: 0;
+  width: 7%;
+  position: absolute;
+  top: 300px;
+  right: 400px;
+  opacity: 0.2;
+  animation: rocks-float 10s infinite ease-in-out;
+}
+
+
+.br2{
+  z-index: 1;
+  width: 3%;
+  position: absolute;
+  top: 400px;
+  right: 480px;
+  opacity: 0.2;
+  animation: rocks-float-2 12s infinite ease-in-out;
+
+}
+
+.background {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes rocks-float {
+  0%{
+    top: 250px;
+  }
+  50%{
+    top:260px
+  }
+  100%{
+    top: 250px;
+  }
+}
+
+@keyframes rocks-float-2 {
+  0%{
+    top: 400px;
+  }
+  50%{
+    top:390px;
+  }
+  100%{
+    top: 400px;
+  }
+}

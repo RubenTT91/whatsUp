@@ -1,5 +1,5 @@
 .container{
-    height: 80vh;
+    height: 93vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 .first-section{
 background: #090909;
-background: linear-gradient(121deg,rgb(0, 0, 0) 0%, rgb(25, 1, 31) 100%);
+background: linear-gradient(360deg,rgb(0, 0, 0) 0%, rgba(25, 1, 31) 100%);
 animation: backgroundcolor;
 
 }

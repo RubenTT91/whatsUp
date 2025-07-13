@@ -13,7 +13,6 @@ body {
   background-size: contain;
   width: 100%;  
 }
-
 img{
   position: fixed;
   width: 100%;  
@@ -22,19 +21,6 @@ img{
 }
 
 
-
-@keyframes scale {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity:0;
-  }
-  100%
-  {    
-    opacity: 1;
-  }
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
