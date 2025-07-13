@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -44,7 +33,7 @@
   top: 300px;
   right: 400px;
   opacity: 0.2;
-  animation: rocks-float 10s infinite ease-in-out;
+  animation: rocks-float 8s infinite ease-in-out;
 }
 
 
@@ -55,7 +44,7 @@
   top: 400px;
   right: 480px;
   opacity: 0.2;
-  animation: rocks-float-2 12s infinite ease-in-out;
+  animation: rocks-float-2 10s infinite ease-in-out;
 
 }
 

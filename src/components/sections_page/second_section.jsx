@@ -13,9 +13,9 @@ function Second_Section() {
     <section className="second-section">
 
       <div className="container">
-        <h1 class="display-4">Esta es la segunda Sección</h1>
-        <p class="display-6">
-          Contenido de la segunda sección.
+        <h1 className="display-4">this section is about my projects</h1>
+        <p className="display-6">
+         with cards
         </p>
         
       </div>
