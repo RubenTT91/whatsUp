@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,42 +24,36 @@
     transform: rotate(360deg);
   }
 }
-
-.br {
-  z-index: 0;
+.generalRock{
+  z-index: 2;
+  position: absolute;
+  opacity: 0.2;
+}
+.br {  
   width: 7%;
   position: absolute;
   top: 300px;
   right: 400px;
-  opacity: 0.4;
-  animation: rocks-float 8s infinite ease-in-out;
+  animation: rocks-float 6s infinite ease-in-out;
 }
-
-
 .br2{
-  z-index: 1;
   width: 3%;
-  position: absolute;
   top: 400px;
   right: 480px;
-  opacity: 0.5  ;
-  animation: rocks-float-2 10s infinite ease-in-out;
+  animation: rocks-float-2 6s infinite ease-in-out;
 
 }
 
 .br3{
-  z-index: 1;
   width: 1%;
-  position: absolute;
-  top: 80px;
-  right: 500px;
-  opacity: 0.5  ;
+  top: 650px;
+  right: 540px;
   animation: rocks-float-3 5s infinite linear;
 
 }
 
 .background {
-  background-color: black;
+background-color: black;
   width: 100%;
   height: auto;
 }
@@ -76,10 +69,9 @@
     top: 250px;
   }
 }
-
 @keyframes rocks-float-2 {
   0%{
-    /* top: 90px; */
+    top: 400px;
   }
   50%{
     top:390px;
@@ -90,14 +82,9 @@
 }
 @keyframes rocks-float-3 {
   0%{
-    top: 400px;
     transform:rotate(0deg);
-  }
-  50%{
-    top:390px;
-  }
+  }  
   100%{
-    top: 400px;
     transform:rotate(360deg);
   }
 }

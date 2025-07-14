@@ -1,26 +1,21 @@
-import React from "react";
 import "./second_section.css";
-import NavBar from "../navBar/navBar.jsx";
-import Picture from "../../img/profile_picture.jpg";
-import { Element } from "react-scroll"
+import { Element } from "react-scroll";
+import Cards from "../cardProject/card_proyect.jsx";
+
+
 
 
 function Second_Section() {
   return (
     <>
-    <Element name="section1">
-
-    <section className="second-section">
-
-      <div className="container">
-        <h1 className="display-4">this section is about my projects</h1>
-        <p className="display-6">
-         with cards
-        </p>
-        
-      </div>
-    </section>
-    </Element>
+      <Element name="section2">
+        <section className=" second-section ">
+          <div className="container">
+            <h1 className="display-4">Projects</h1>
+            <Cards  />
+          </div>
+        </section>
+      </Element>
     </>
   );
 }

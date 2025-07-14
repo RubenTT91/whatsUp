@@ -10,7 +10,7 @@ function First_section() {
       <div className="container">
         <h1 class="display-4">Hello, I am Ruben Toro</h1>
         <p class="display-6">
-          I'm Web Developer
+          I am a web developer and designer
         </p>        
       </div>
     </section>

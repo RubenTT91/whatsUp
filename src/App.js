@@ -12,9 +12,9 @@ function App() {
   return (
     <>
 
-      <img className="br" src={g21} />
-      <img className="br2" src={g22} />
-      <img className="br3" src={g23} />
+      <img className="br generalRock" src={g21} />
+      <img className="br2 generalRock" src={g22} />
+      <img className="br3 generalRock" src={g23} />
       <ToHome />
       <NavBar />
       <First_section />
