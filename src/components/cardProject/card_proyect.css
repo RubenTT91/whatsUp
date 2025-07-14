@@ -1,30 +1,33 @@
 .project-item {
   min-width: 300px;
   max-width: 300px;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 201px;
+  max-height: 201px;
   color: aliceblue;
   text-align: center;
   padding: 20px;
   margin: 20px;
-  box-shadow: #18011e 0 0 3px;
+  box-shadow: #460357 0 0 3px;
   border-radius: 10px;
   overflow: hidden;
   transition: 0.4s;
+  border-radius:5%;
 }
 
 .project-item img {
-  min-width: 200px;
-  max-width: 200px;
+  min-width: 150px;
+  max-width: 150px;
   min-height: 150px;
   max-height: 150px;
   z-index: 2;
   position: static;
   opacity: 1;
   object-fit: cover;
+  border-radius:50%;
 }
 
 .card-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -35,5 +38,5 @@
 .project-item:hover {
   max-height: 300px;
   overflow: visible;
-  box-shadow: #390346 0 0 5px;
+  box-shadow: #8807a8 0 0 5px;
 }
