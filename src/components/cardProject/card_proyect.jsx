@@ -10,14 +10,14 @@ function Cards(){
         <div className='card-container'>
 
                {
-                   data.map((project, index) => (
+                   data.map((project) => (
                        <div className='project-item'>
-                        <h5>{project.title}</h5>
-                        <img src={project.image_page} alt={project.titulo} />
-                        <p>{project.description}</p>
+                        <img src={project.image_page} alt={project.titulo} />                                               
+                        <h5>{project.title}</h5> <p>{project.description}</p>
                         <button className='btn btn-outline-info'>
                             <a className="nav-link" href={project.url_page} target="_blank">go to</a>
                             </button>
+                           
                     </div>
                 ))}
 

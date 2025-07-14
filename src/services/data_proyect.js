@@ -4,7 +4,7 @@
 const DATA_P = [
     {
         title:"Control de Gastos",
-        description:"descripción proyecto 1",
+        description:"Aplicación con almacenamiento volatil, con la lógica para llevar un control de gastos del usuario.",
         image_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/control_gastos.gif",
         url_page:"https://rubentt91-controldegastos.netlify.app/",
     },
@@ -22,7 +22,7 @@ const DATA_P = [
     },
     {
         title:"Decoraciones",
-        description:"descripción proyecto 1",
+        description:"Página para venta de amigurumis y tapetes.",
         image_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/decoraciones_johana.gif",
         url_page:"https://decoraciones-johana.netlify.app/",
     },

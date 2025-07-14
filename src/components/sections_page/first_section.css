@@ -1,20 +1,22 @@
-.container{
-    height: 93vh;
+.container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    & h1, p{
+
+    & h1 {
         color: #ffffff;
     }
 }
-.first-section p{
+
+.first-section p {
     font-size: 24px;
     color: #737373;
 }
 
-.first-section{
-background: #090909;
-background: linear-gradient(360deg,rgb(0, 0, 0) 0%, rgba(25, 1, 31) 100%);
-animation: backgroundcolor;
-
+.first-section {
+    background: #090909;
+    background: linear-gradient(360deg, rgb(0, 0, 0) 0%, rgba(25, 1, 31) 100%);
+    padding-top:40px;
+    height: 100%;
 }

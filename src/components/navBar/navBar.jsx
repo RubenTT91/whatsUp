@@ -39,9 +39,13 @@ function NavBar() {
                   </a>
                 </li>
                 </Link>
+                <Link to="section3" smooth={true} duration={500}>
                 <li className="nav-item">
-                  <a className="nav-link" href="#"></a>
+                  <a className="nav-link" href="#">
+                    about me
+                  </a>
                 </li>
+                </Link>
               </ul>
             </div>
           </div>

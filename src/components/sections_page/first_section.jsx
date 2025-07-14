@@ -1,7 +1,5 @@
 import React from "react";
 import "./first_section.css";
-import NavBar from "../navBar/navBar.jsx";
-import Picture from "../../img/profile_picture.jpg";
 
 function First_section() {
   return (
