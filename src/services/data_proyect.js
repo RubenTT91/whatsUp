@@ -41,20 +41,20 @@ const DATA_P = [
     {
         title:"Dromps Game",
         description:"descripción proyecto 1",
-        image_page:"#",
+        image_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/play_drumps.gif",
         url_page:"https://drumsonline.netlify.app/",
     },
     {
         title:"React Library",
         description:"descripción proyecto 1",
         image_page:"#",
-        url_page:"https://leccionesreact.netlify.app/",
+        url_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/react-biblioteca.gif",
     },
     {
         title:"Geolocalización",
         description:"descripción proyecto 1",
         image_page:"#",
-        url_page:"https://rubentt91-geolocalizacion.netlify.app/",
+        url_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/geolocalizacion.gif",
     },
 ]
 
