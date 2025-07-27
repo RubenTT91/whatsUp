@@ -47,14 +47,14 @@ const DATA_P = [
     {
         title:"React Library",
         description:"descripción proyecto 1",
-        image_page:"#",
-        url_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/react-biblioteca.gif",
+        image_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/react-biblioteca.gif",
+        url_page:"https://leccionesreact.netlify.app/",
     },
     {
         title:"Geolocalización",
         description:"descripción proyecto 1",
-        image_page:"#",
-        url_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/geolocalizacion.gif",
+        image_page:"https://portafolioruben.s3.us-east-1.amazonaws.com/geolocalizacion.gif",
+        url_page:"https://rubentt91-geolocalizacion.netlify.app/",
     },
 ]
 

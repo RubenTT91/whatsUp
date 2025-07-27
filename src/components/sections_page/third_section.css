@@ -1,0 +1,28 @@
+.third-section{
+   background: linear-gradient(180deg, rgb(1, 27, 31) 0%,rgb(42, 42, 42) 100%);
+}
+
+.technologies-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.third-section .btn{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    justify-content:left;
+    align-items: center;
+}
+
+
+
+.third-section .btn:hover{
+    box-shadow: #ffffff 0 0 8px;    
+    & svg{
+        fill: rgb(1, 27, 31);
+
+    }
+}
