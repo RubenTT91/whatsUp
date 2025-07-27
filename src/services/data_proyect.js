@@ -1,6 +1,3 @@
-
-
-
 const DATA_P = [
     {
         title:"Control de Gastos",
