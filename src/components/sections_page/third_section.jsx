@@ -10,7 +10,7 @@ function ThirdSection() {
       <Element name="section3">
         <section className=" third-section ">
           <div className="container">
-            <h1 className="display-4">my knowledge</h1>
+            <h1 className="display-3">my knowledge</h1>
             <div className="kind-sections">
               <h4>Languages & Frameworks</h4>
               <div className="technologies-buttons continaers">
@@ -29,7 +29,7 @@ function ThirdSection() {
               </div>
             </div>
             <div className="kind-sections">
-              <h4>Certifications</h4>
+              <h4 className="display-6">Certifications</h4>
               <div className="technologies-buttons continaers">
                 {TECH.map((element) =>
                   element.kind === "certifications" ? (
