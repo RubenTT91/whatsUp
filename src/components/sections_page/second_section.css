@@ -18,7 +18,7 @@
    left: 40px;
    opacity: 0.1;
    top: 55vw;
-   animation: br23 5.8s infinite ease-in-out;
+   animation: br23 5.5s infinite ease-in-out;
 }
 
 
@@ -27,7 +27,7 @@
    left: 160px;
    opacity: 0.1;
    top: 55vw;
-   animation: br23 6.5s infinite ease-in-out;
+   animation: br23 5.7s infinite ease-in-out;
 }
 
 @keyframes br23 {
