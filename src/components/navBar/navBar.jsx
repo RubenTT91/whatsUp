@@ -28,7 +28,7 @@ function NavBar() {
                 <Link to="section1" smooth={true} duration={500}>
                   <li className="nav-item">
                     <a className="nav-link" href="#">
-                      How I am?
+                      How am I?
                     </a>
                   </li>
                 </Link>
