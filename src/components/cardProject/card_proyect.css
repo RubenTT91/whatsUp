@@ -2,6 +2,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  
 }
 
 .slider-track {
@@ -12,6 +13,7 @@
 
 .slider-wrapper:hover .slider-track{
     animation-play-state: paused;
+    overflow-x: visible;
 }
 
 .project-item {
