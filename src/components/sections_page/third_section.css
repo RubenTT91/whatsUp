@@ -1,37 +1,50 @@
+.third-section .kind-sections{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
 .third-section{
-   background: linear-gradient(180deg, rgb(1, 27, 31) 0%,rgb(42, 42, 42) 100%);
-
+    background: linear-gradient(180deg, rgb(1, 27, 31) 0%,rgb(42, 42, 42) 100%);
+    
+    
 }
 
 .technologies-buttons{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 20px;    
+    margin: 0 15px; 
+    justify-content: baseline;
     
 }
 
 .third-section .btn{
     position:relative;
-    display: flex;
-    flex-direction: column;
-    width: 150px;
+    flex-wrap: wrap;
+    display: flex;    
+    min-width: 150px;
     height: 60px;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
-    margin: 20px;
+    margin: 8px;
+    margin-bottom:5px;
 }
  .third-section p{
-    font-size: 7px;    
+    font-size: 8px;    
     position: absolute;   
     bottom:-17px;
     margin: 0;
     opacity: 0;
-    transition: .5s;
+    transition: .4s;
     width: 100%;
+    justify-items: left;
  }
 
   .third-section .btn:hover p{
-        opacity: .8;        
+        opacity: .8;  
+        color: #ffffff;      
     }
 .third-section h4{
     margin: 20px;
@@ -41,7 +54,7 @@
 
 
  .renglon1{  
-    width: 100%;
+    width: 100%;    
     position:absolute;        
     top: 10px;
     display: flex;

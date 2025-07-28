@@ -8,7 +8,7 @@ function First_section() {
       <div className="container">
         <h1 class="display-4">Hello, I am Ruben Toro</h1>
         <p class="display-6">
-          I am a web developer and designer
+          a web developer and designer
         </p>        
       </div>
     </section>
