@@ -25,27 +25,27 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-                <Link to="section1" smooth={true} duration={500}>
-                  <li className="nav-item">
+                <li className="nav-item">
+                  <Link to="section1" smooth={true} duration={500}>
                     <a className="nav-link" href="#">
                       How am I?
                     </a>
-                  </li>
-                </Link>
-                <Link to="section2" smooth={true} duration={500}>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Projects
-                  </a>
+                  </Link>
                 </li>
-                </Link>
-                <Link to="section3" smooth={true} duration={500}>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Knowledge
-                  </a>
+                  <Link to="section2" smooth={true} duration={500}>
+                    <a className="nav-link" href="#">
+                      Projects
+                    </a>
+                  </Link>
                 </li>
-                </Link>
+                <li className="nav-item">
+                  <Link to="section3" smooth={true} duration={500}>
+                    <a className="nav-link" href="#">
+                      Knowledge
+                    </a>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
