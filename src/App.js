@@ -18,12 +18,12 @@ function App() {
       <img className="br3 generalRock" src={g23} />
       <ToHome />
       <NavBar />
-      <First_section />
-      <Second_Section />
-      <ThirdSection/>
-    <div className="background"> 
+      <section><First_section /></section>
+      <section><Second_Section /></section>
+      <section><ThirdSection/></section>
+    <div className="background">
     </div>
-    </> 
+    </>
   );
 }
 

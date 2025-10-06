@@ -9,11 +9,8 @@ function NavBar() {
       <Element name="home">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <a className="navbar-brand sm" href="#">
-              Welcome
-            </a>
-            <button
-              className="navbar-toggler"
+            <a className="navbar-brand" href="#">Welcome</a>
+            <button className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -25,13 +22,13 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-                <li className="nav-item">
                   <Link to="section1" smooth={true} duration={500}>
+                <li className="nav-item">
                     <a className="nav-link" href="#">
                       How am I?
                     </a>
-                  </Link>
                 </li>
+                  </Link>
                 <li className="nav-item">
                   <Link to="section2" smooth={true} duration={500}>
                     <a className="nav-link" href="#">

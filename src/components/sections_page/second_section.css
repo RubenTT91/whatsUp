@@ -1,16 +1,30 @@
-.second-section{
-   display: flex;
-   flex-direction: column;
-   background-color: rgb(0, 0, 0);
-   padding-top: 20px;
-   height: auto;
-
+.second-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(1, 27, 31) 100%);
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
 }
 
+.second-section h1 {
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 1rem;
+}
 .second-section img {
    position: absolute;
    z-index: 1;
 
+}
+
+.second-section p {
+  color: #ccc;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  max-width: 700px;
 }
 
 .br23 {
@@ -18,30 +32,29 @@
    left: 40px;
    opacity: 0.1;
    top: 55vw;
-   animation: br23 5.5s infinite ease-in-out;
-}
+   animation: br23  7.5s infinite ease-in-out;
 
+}
 
 .br24 {
    width: 100px;
    left: 160px;
    opacity: 0.1;
    top: 55vw;
-   animation: br23 5.7s infinite ease-in-out;
+   animation: br23 6.7s infinite ease-in-out;
 }
 
 @keyframes br23 {
    0% {
-      top: 55vw;
-
+      top: 30vw;
    }
 
    50% {
-      top: 56vw;
+      top: 36vw;
    }
 
    100% {
-      top: 55vw;
+      top: 30vw;
    }
 
 }
@@ -53,7 +66,28 @@
 }
 
 .second-section {
-   background: #090909;
-   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(1, 27, 31) 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* asegúrate que ocupe todo el viewport */
+  padding: 60px 20px;
+}
 
+@media (max-width: px) {
+  .second-section {
+    padding: 40px 15px;
+  }
+
+  .second-section h1 {
+    font-size: 1.6rem;
+    margin:5px;
+    padding: 10px;
+  }
+
+  .second-section p {
+    font-size: 1rem;
+  }
+  
 }

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+    scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 .App-header {
   background-color: #282c34;
@@ -10,6 +13,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+section {
+  scroll-snap-align: start;
+  height: 100vh;
 }
 
 .App-link {
@@ -87,4 +94,75 @@ background-color: black;
   100%{
     transform:rotate(360deg);
   }
+}
+
+
+@media(max-width:600px){
+
+
+  .br {  
+  width: 7%;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  animation: rocks-float 6s infinite ease-in-out;
+}
+.br2{
+  width: 3%;
+  top: 400px;
+  right: 80px;
+  animation: rocks-float-2 6s infinite ease-in-out;
+
+}
+
+.br3{
+  width: 1%;
+  top: 650px;
+  right: 340px;
+  animation: rocks-float-3 5s infinite linear;  
+}
+@keyframes rocks-float {
+  0%{
+    top: 250px;
+  }
+  50%{
+    top:260px
+  }
+  100%{
+    top: 250px;
+  }
+}
+@keyframes rocks-float-2 {
+  0%{
+    top: 400px;
+  }
+  50%{
+    top:390px;
+  }
+  100%{
+    top: 400px;
+  }
+}
+@keyframes rocks-float-3 {
+  0%{
+    transform:rotate(0deg);
+  }  
+  100%{
+    transform:rotate(360deg);
+  }
+}
+}
+section {
+  z-index: 0; /* fondo base */
+  position: relative; /* ancla los hijos absolutamente posicionados */
+  width: 100%;
+  min-height: 100vh; /* garantiza una altura de pantalla completa */
+}
+
+.generalRock,
+.br,
+.br2,
+.br3 {
+  position: absolute;
+  z-index: 10; /* elementos flotantes por encima */
 }

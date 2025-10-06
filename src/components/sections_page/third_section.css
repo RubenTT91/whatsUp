@@ -1,35 +1,38 @@
-.third-section .kind-sections{
-    display: flex;
-    gap: 1rem;
-    width: 90%;
-    margin: 0 auto;
-    flex-direction: column;
+.third-section .kind-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  margin: 0 auto;
 }
-.third-section{
-    background: linear-gradient(180deg, rgb(1, 27, 31) 0%,rgb(42, 42, 42) 100%);
-    
-    
+.third-section {
+  background: linear-gradient(180deg, rgb(1, 27, 31) 0%, rgb(42, 42, 42) 100%);  
+  padding: 80px 20px;  
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+}
+.technologies-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1rem;
 }
 
-.technologies-buttons{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0 15px; 
-    justify-content: baseline;
-    
+.third-section .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  height: 60px;
+  margin: 10px;
+  background: transparent;
+  border: 1px solid #444;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 
-.third-section .btn{
-    position:relative;
-    flex-wrap: wrap;
-    display: flex;    
-    min-width: 150px;
-    height: 60px;
-    justify-content:space-around;
-    align-items: center;
-    margin: 10px;
-}
  .third-section p{
     font-size: 8px;    
     position: absolute;   
@@ -41,10 +44,9 @@
     justify-items: left;
  }
 
-  .third-section .btn:hover p{
-        opacity: .8;  
-        color: #ffffff;      
-    }
+.third-section .btn:hover {
+  box-shadow: #ffffff 0 0 8px;
+}
 .third-section h4{
     margin: 20px;
     margin-bottom: 0px;
@@ -54,7 +56,7 @@
 
  .renglon1{  
     width: 100%;    
-    position:absolute;        
+    /* position:absolute;         */
     top: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -63,13 +65,42 @@
 
 .third-section .btn:hover{
     box-shadow: #ffffff 0 0 8px;    
-    & svg{
-        fill: rgb(1, 27, 31);
-
+    & svg{      
+        filter: drop-shadow(1px 1px 5px rgba(255, 255, 255, 0.8));
+        border-radius: 25%;
+        transition: 0.5s;
     }
 }
 
 
 .kind-sections{
     margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .third-section {
+    padding: 60px 10px;
+  }
+
+  .third-section .btn {
+    min-width: 120px;
+    height: 50px;
+  }
+
+  .third-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .third-section p {
+    font-size: 10px;
+  }
+  .third-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
