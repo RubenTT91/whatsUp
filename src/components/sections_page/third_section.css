@@ -10,7 +10,7 @@
   padding: 80px 20px;  
   position: relative;
   min-height: 100vh;
-  height: auto;
+  height: fit-content;
 }
 .technologies-buttons {
   display: flex;

@@ -106,7 +106,7 @@ h5 {
   }
 }
 
-@media(max-width:600px){
+@media(max-width:800px){
   .card-container {
   width: 80%;
   display: flex;
@@ -119,11 +119,11 @@ h5 {
   border-radius:10px;
  
 }
-.project-item p,
-h5 {
+p{
   display: none;
-  
-}
+
+  }
+
 .display-4{
   margin: 5px;
 }
